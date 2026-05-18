@@ -45,7 +45,7 @@ for r in range(n):
             player = int(row[c])
             queues[player].append((r, c))
             ans[player] += 1
-ㅠ
+
 dr = [-1, 1, 0, 0]
 dc = [0, 0, -1, 1]
 
