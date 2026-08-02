@@ -13,7 +13,6 @@ updown_state = [[1, 0], [0, 1], [0, 1], [1, 0]]
 
 
 def is_valid(x, y, n, m):
-    """좌표가 격자 내부인지 판별합니다."""
     return 0 <= x < n and 0 <= y < m
 
 
